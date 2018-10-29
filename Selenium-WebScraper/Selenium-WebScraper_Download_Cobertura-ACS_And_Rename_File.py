@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import os.path
 
-driver = webdriver.Chrome(executable_path="C:\\Users\\ses83971874053\\PycharmProjects\\TesteSelenium\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\Users\\Usuario\\PycharmProjects\\TesteSelenium\\chromedriver.exe")
 
 # Cobertura de Agentes Comunitários de Saúde
 wait = WebDriverWait(driver, 3)
@@ -49,11 +49,11 @@ def moveTo(from_path, to_path, pattern):
         break
 
 
-moveTo("C:\\Users\\ses83971874053\\Downloads", "C:\\Users\\ses83971874053\\Desktop\\Atencao Basica",
+moveTo("C:\\Users\\Usuario\\Downloads", "C:\\Users\\ses83971874053\\Desktop\\Atencao Basica",
        "Cobertura-ACS*.xls")
 
 # Rename file to AAAAMM
-path_dir = "C:\\Users\\ses83971874053\\Desktop\\Atencao Basica"
+path_dir = "C:\\Users\\Usuario\\Desktop\\Atencao Basica"
 path_files = os.listdir(path_dir)
 pattern = "Cobertura-ACS*.xls"
 for files in path_files:
