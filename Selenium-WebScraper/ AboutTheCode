@@ -1,0 +1,10 @@
+
+Código de Web Scraping com Selenium:
+
+
+- Este código acessa a página do Ministério da Saúde (BR) - Departamento de Atenção Básica;
+- Realiza o download do relatório de Cobertura de Agentes Comunitários de Saúde da última competência;
+- O downlaod do arquivo é feito na pasta Download;
+- Move o arquvio para uma nova pasta destino.
+- O arquivo vem por padrão com o "mês" e "ano" no nome do arquivo.
+- Renomeia o arquivo com o padrão: YYYYMM
